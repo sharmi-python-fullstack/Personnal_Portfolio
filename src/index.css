@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { @apply bg-forest-950 text-slate-200 antialiased font-sans; }
+::selection { background: #9a2340; color: white; }
+.glass { @apply bg-white/5 backdrop-blur-md border border-white/10; }
+.gradient-text { @apply bg-gradient-to-r from-brand-300 via-pink-300 to-emerald-300 bg-clip-text text-transparent; background-size: 200% auto; }
